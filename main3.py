@@ -1,3 +1,7 @@
+/*REPLACE API KEYS TOO WITH YOUR API KEY. 
+SEARCH FOR YOUR YOUR OWN API KEY FROM OPENROUTESERVICE WEBSITE AND OPENWEATHERMAP WEBSITE. 
+AFTER FIND THOSE TWO API KEYS REPLACE THEM WITH MINE.*/
+
 from flask import Flask, request, render_template, jsonify, session
 from geopy.geocoders import Nominatim
 import time
